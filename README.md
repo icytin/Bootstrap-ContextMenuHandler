@@ -49,7 +49,7 @@ You may initialize the context menu to multiple clickable targets in a area.
     
 You also may add 'data-function' and 'data-args' as attributes to the anchors in the context menu. The 'data-args' is optional to the function. For example:
 
-    <li><a tabindex="-1" data-function="doSomething" data-args="hello" href="javascript:void(0)">Action1</a></li>
+    <li><a tabindex="-1" data-function="doSomething" data-args="hello, 1, 2" href="javascript:void(0)">Action1</a></li>
 
 Then define the function doSomething() in JavaScript. And initialize the context menu as usual. For example:
 
