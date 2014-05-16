@@ -35,7 +35,7 @@ The plugin:
 Initialization through Javascript
 ------
 
-This example initializes the context menu defined above. When click occurs on elements with the class "clickable". The clickable must be inside of an element with the id "area".
+The line below initializes the context menu defined above. When click occurs on elements with the class "clickable". The clickable must be inside of an element with the id "area".
 
     ContextMenuHandler.init('#contextMenu1', '.clickable', '#area' );
     
@@ -51,7 +51,7 @@ You also may add 'data-function' and 'data-args' as attributes to the anchors in
 
     <li><a tabindex="-1" data-function="doSomething" data-args="hello" href="javascript:void(0)">Action1</a></li>
 
-Then define the function doSomething() in JavaScript. And initialize the context menu as usual:
+Then define the function doSomething() in JavaScript. And initialize the context menu as usual. For example:
 
     ContextMenuHandler.init('#contextMenu1', '.clickable', '#area' );
 
@@ -63,3 +63,4 @@ TODO´s
 Please, help to make this plugin better. Below is a list of things that may be done.
 
 - Add events when initializing the context menu
+- Only tested with Bootstrap 3, should also be tested with Bootstrap 2.
