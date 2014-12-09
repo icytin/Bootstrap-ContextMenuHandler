@@ -3,8 +3,6 @@ Bootstrap-ContextMenuHandler
 
 A simple context menu handler for Twitter bootstrap.
 
-[Demo](http://icytin.github.io/ContextMenuHandler)
-
 
 Usage
 ------
